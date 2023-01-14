@@ -1,0 +1,58 @@
+.title{
+
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: cadetblue;    
+    text-align: center;
+
+}
+.tableStyle{
+    border-collapse: collapse;
+    margin: auto;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    max-width:800px;
+    box-shadow: 0 0 20px rgb(0,0,0,0.15);
+}
+.tableStyle thead tr{
+    background-color: rgba(5, 119, 5, 0.755);
+    color: white;
+    text-align: left;
+}
+.tableStyle th,
+.tableStyle td{
+    padding: 12px 15px;
+}
+.tableStyle tbody tr{
+    border-bottom: 1px solid white;
+
+}
+.tableStyle tbody tr:nth-of-type(even){
+    background-color: rgb(230, 230, 228);
+}
+
+.tableStyle tbody tr:last-of-type{
+    border-bottom: 2px solid #009879;
+}
+
+.btnAdd{
+    border: none;
+    color: white;
+    padding: 5px 8px;
+    
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 4px 2px;
+    align-items: center;
+    position: relative;
+
+    cursor: pointer;
+}
+
+.btn-contact{
+    background-color: rgb(233, 141, 4);
+    margin-bottom: 10px;
+    left: 45%;
+}
