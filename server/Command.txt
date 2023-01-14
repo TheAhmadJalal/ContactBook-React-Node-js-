@@ -1,0 +1,8 @@
+// For package.json we first run command npm init
+// Then we run npm i body-parser cors express mysql2 nodemon for mysql database connectivity
+
+Then run npm creact-react-app 'appname'
+Then install some pacjages inside 'appname' : npm i react-router-dom axios react-toastify
+
+//By using below line we dont need to kill server every time it automatically refresh server
+"server": "nodemon index.js"
